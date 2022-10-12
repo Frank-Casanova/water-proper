@@ -1,4 +1,3 @@
-
  body {
     background-color:  #F9F5EB;
     font-family: 'Kanit', sans-serif;
@@ -19,7 +18,9 @@
     border-radius: 5px;
     color: whitesmoke;
     margin: 10px;
-
+  }
+  .bar_nav a {
+    text-decoration: none;
   }
   .bar_nav div li {
     list-style: "🔹";
@@ -90,6 +91,7 @@
   .input_temperatura {
     font-size: 1em;
     border-radius: 10px;
+    text-align: center;
   }
   .grafico {
     height: 50em;
@@ -120,6 +122,14 @@
     font-size: 1.2em;
     border-radius: 5px;
     border: 2px solid #1C3879
+  }
+  .footer{
+    height: 80px;
+    background-color: #1C3879;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
   }
   /*
    * {
