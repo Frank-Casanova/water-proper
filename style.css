@@ -1,0 +1,127 @@
+
+ body {
+    background-color:  #F9F5EB;
+    font-family: 'Kanit', sans-serif;
+   }
+   .bar_nav {
+     background-color: #1C3879;
+     display: flex;
+     justify-content: space-between;
+    padding: 5px;
+    border-radius:15px;
+    align-items: center;
+  }
+  
+  .bar_nav div {
+    display: flex;
+    background-color: #607EAA;
+    padding: 10px;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin: 10px;
+
+  }
+  .bar_nav div li {
+    list-style: "🔹";
+    margin: 2px;
+    padding: 3px;
+  }
+  
+  .bar_nav p {
+    font-size: 1.5em;
+    color: whitesmoke;
+    background-color: #607EAA;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+    background-color: #607EAA;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+  }
+  .temperatura {
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+  }
+  .container_btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px
+  }
+  .btn_calc {
+    display: flex;
+    justify-content: center;
+    background-color: #1C3879;
+    color: whitesmoke;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 2px solid #607EAA;
+    padding: 5px;
+  }
+  .btn_calc:hover {
+    background-color: whitesmoke;
+    color: #1C3879;
+    font-size: 1.5em;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 5px;
+    
+  }
+  .subtitulo {
+    display: flex;
+    justify-content: center;
+  }
+  .text {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+  }
+  .entrada {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .input_temperatura {
+    font-size: 1em;
+    border-radius: 10px;
+  }
+  .grafico {
+    height: 50em;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .salida {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+  }
+  .lista_salida {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+  }
+  .lista_salida span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lista_salida li {
+    align-items: center;
+  }
+  .dato_salida {
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 2px solid #1C3879
+  }
+  /*
+   * {
+    border: 1px solid red;
+   }*/

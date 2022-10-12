@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Properties</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+</head>
+<script src="/script.js"></script>
+<body>
+  <nav class="bar_nav">
+    <p>FC Dev</p>
+    <div>
+      <li>Contacto</li>
+      <li>Donaciones</li>
+    </div>
+  </nav>
+  <h1 class="title">Propiedades del agua</h1>
+  <p class="text">En esta calculadora se pueden calcular 4 propiedades distintas del agua según su termperatura</p>
+  <div class="datos">
+    <section class="entrada">
+      <h2 class="subtitulo">Datos de entrada</h2>
+      <div class="temperatura">
+        <p>Temperatura: </p>
+        <input class="input_temperatura" type="number" placeholder="00.0 °C" id="value_temperatura">
+      </div>
+    </section>
+    <div class="container_btn">
+      <button class="btn_calc" onclick="Calcular()">Calcular</button>
+    </div>
+    <section class="salida">
+      <ul class="lista_salida">
+        <li>Viscosidad Cinemática: </li>
+          <p class="dato_salida" id="VC">-</p>
+          <span>m²/s</span>
+        <li>Densidad: </li>
+          <p class="dato_salida" id="DE">-</p>
+          <span>kg/m²</span>
+        <li>Peso específico: </li>
+          <p class="dato_salida" id="PE">-</p>
+          <span>kN/m³</span>
+        <li>Viscosidad Dinámica: </li>
+          <p class="dato_salida" id="VD">-</p>
+          <span>Pa * s</span>
+      </ul>
+    </section>
+  </div>
+  <div class="grafico">
+    <img src="/output.png" alt="Gráfico">
+  </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>  
+<html>  
+<body>  
+<h1>Sumar dos números</h1>  
+<p>Por favor, introduce dos números:</p>  
+<input id="num1"><br>  
+<input id="num2">  
+<button type="button" onclick="myFunction()">Sumar</button>  
+<p id="sumando"></p>  
+<script>  
+function myFunction() {  
+  var x,y,suma,text;  
+  x = document.getElementById("num1").value;  
+  y = document.getElementById("num2").value;  
+  if (isNaN(x) || isNaN(y)) {  
+    text = "Es necesarios introducir dos números válidos";  
+  } else {  
+    //si no ponemos parseFloat concatenaría x con y  
+    suma=parseFloat(x)+parseFloat(y);  
+    text= suma;  
+  }  
+  document.getElementById("sumando").innerHTML = text;  
+}  
+</script>  
+</body>  
+</html>  
+
+ 
